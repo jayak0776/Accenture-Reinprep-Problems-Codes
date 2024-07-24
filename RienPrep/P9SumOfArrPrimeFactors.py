@@ -1,7 +1,5 @@
 def SumOfArrPrimeFactors(arr,num):
     primes=[]
-    if len(arr)==0:
-        return -1
     for i in range(2,num+1):
         while num%i==0:
             primes.append(i)
